@@ -1,0 +1,133 @@
+
+.logo{
+    width: 350px;
+    height: 200px;
+}
+.loginImg{
+    background: url("../../images/logo.png")no-repeat;width: 370px;height: 229px; ;
+    background-size: contain;
+    
+    
+    margin: 0 auto;
+}
+.hrFirst{
+    width: 147px;
+    height: 2px;
+    background-color: #545454;
+    margin-top: 46px;
+    /*margin-top: 33px;**/
+}
+.hrSecond{
+    width: 54px;
+    height: 1px;
+    background-color: #545454;
+    margin-top: 10px;
+}
+.enter{
+    width: 202px;
+    height: 29px;
+    color: #545454;
+    font-family: "Open Sans Hebrew";
+    font-size: 35px;
+    font-weight: 300;
+}
+.fields{
+    width: 482px;
+    height: 133px;
+    display: inline-table;
+}
+.labelField{
+    color: #969696;
+    font-family: "Open Sans Hebrew";
+    font-size: 21px;
+    font-weight: 300;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #e6e6e6 inset !important;
+}
+
+.forgotWrap{
+text-align: left;
+width: 482px;
+display: inline-table;
+
+}
+.forgotPassword{
+font-family: OpenSansHebrew;
+color:  #969696;
+font-size: 17.51px;/* Approximation due to font substitution */
+font-weight: 300;
+line-height: 32.396px;/* Approximation due to font substitution */
+text-decoration: underline;
+text-align: left;
+transform: scaleY(1.0002);/* width and height properties ommitted due to transform */
+
+}
+.loginWrap{
+     width: 450px;
+    height: 95px;
+    display: inline-table;
+}
+.loginBtn{
+    width: 320px;
+    height: 70px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    background-color: #bf8ec0;
+  
+}
+.loginLbl{
+    width: 71px;
+    height: 20px;
+    color: #ffffff;
+    font-family: "Open Sans Hebrew";
+    font-size: 29px;
+    font-weight: 700;
+}
+.wrapLblField{
+    text-align: right;
+    margin-top: 46px;
+}
+.fields input[type='text'],input[type='password']:focus{
+    outline:none;/* -webkit-focus-ring-color auto 5px;*/
+}
+.fields input[type='text'],input[type='password']{
+    width:482px;
+    border:none;
+    border-bottom-style: solid;
+    border-bottom-color:#959595;
+    background-image:none;
+    background-color:transparent !important;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    text-align: right;
+}
+input[type="text"]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #969696;
+    font-family: "Open Sans Hebrew";
+    font-size: 21px;
+    font-weight: 300;
+    /*line-height: 95.83px;*/
+}
+
+.wrapRegister{
+    display: inline-table;/***/
+    width: 198px;
+    height: 19px;
+    color: #969696;
+    font-family: "Open Sans Hebrew";
+    font-size: 18px;
+    font-weight: 300;
+   padding-top: 15px;
+}
+.lblregisterNow{
+    color: #45c3d3;
+    font-family: "Open Sans Hebrew - Bold";
+    font-weight: 700;
+    text-decoration: underline;
+}
+.lblnotRegister{
+    font-family: "Open Sans Hebrew - Light";
+    font-weight: 300;
+}

@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+#wrapper{
+   background: url("./images/backgroundAll.jpg")  no-repeat center;
+   background-size: cover;
+   height: 1080px;
+}
+.loginWrapper{
+    width: 532px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 175px;
+}
